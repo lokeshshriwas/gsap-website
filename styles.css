@@ -1,10 +1,160 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html body{
     width: 100%;
     height: 100%;
+    background-color: black;
+    padding: 0px 50px;
+}
+
+nav{
+    border-bottom: 2px solid #bababa;
+    height: 80px;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.logo h3{
+    font-weight: 500;
+}
+
+.nav-head{
+    display: flex;
+    gap: 50px;
+    margin-right: 300px;
+}
+
+.nav-head>h3, .signup>h3{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.signup i{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+/* page 1 */
+
+.page1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-top: 100px;
+}
+
+.left{
+
+    height: 70vh;
+    width: 50%;
+}
+
+.right{
+
+    height: 70vh;
+    width: 50%;
+}
+
+.left h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+    line-height: 100px;
+}
+
+
+.left h1 span img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: -40px;
+    border: 2px solid white;
+}
+
+.left h1 span{
+    margin-right: 30px;
+}
+
+.left-info{
+    margin-top: 20px;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    /* margin: 20px; */
+    margin-right: 120px;
+}
+
+.left-info h3:nth-child(2){
+    width: 150px;
+}
+
+.left-info h3{
+    font-size: 12px;
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+
+/* page 2 */
+
+
+.page2{
+   display: flex;
+   justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 80vw;
+    margin-top: 100px;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    border: 2px solid white;
+    color: #bababa;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box h3{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.box h5{
+    font-size: 12px;
 }
